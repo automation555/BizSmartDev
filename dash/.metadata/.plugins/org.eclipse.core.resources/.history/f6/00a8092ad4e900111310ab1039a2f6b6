@@ -1,0 +1,5 @@
+com.vaadin.integration.eclipse.useLatestNightly=true
+com.vaadin.integration.eclipse.widgetsetBuildsSuspended=true
+com.vaadin.integration.eclipse.widgetsetCompilationEta=127463
+com.vaadin.integration.eclipse.widgetsetDirty=false
+eclipse.preferences.version=1

@@ -1,0 +1,38 @@
+package com.example.test;
+
+import com.vaadin.Application;
+import com.vaadin.ui.*;
+
+public class TestApplication extends Application {
+	/**
+	 * 
+	 */
+	//private static final long serialVersionUID = 1L;
+
+	@Override
+public void init() {
+	   final Window mainWindow = 
+	      new Window("Myproject Application");
+
+	   Label label = new Label("Hello Vaadin user");
+	   mainWindow.addComponent(label);
+
+	   mainWindow.addComponent(
+	      new Button("What is the time?",
+	         new Button.ClickListener() {
+	        
+
+			/**
+				 * 
+				 */
+				private static final long serialVersionUID = 1L;
+
+			public void buttonClick(ClickEvent event) {
+	            mainWindow.showNotification(
+	               "The time is " + new Date());
+	         }
+	      }));
+	 
+	 setMainWindow(mainWindow);
+	}
+}

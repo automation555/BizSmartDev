@@ -1,0 +1,48 @@
+package com.example.test;
+
+import java.util.Date;
+
+import com.vaadin.Application;
+import com.vaadin.ui.*;
+import com.vaadin.ui.Button.ClickEvent;
+
+@SuppressWarnings("serial")
+public class TestApplication extends Application {
+	/**
+	 * 
+	 */
+	//private static final long serialVersionUID = 1L;
+
+	public void init1() {
+		Window mainWindow = new Window("Test Application");
+		Label label = new Label("Hello Vaadin user");
+		mainWindow.addComponent(label);
+		setMainWindow(mainWindow);
+	}
+
+
+public void init() {
+	   final Window mainWindow = 
+	      new Window("Myproject Application");
+
+	   Label label = new Label("Hello Vaadin user");
+	   mainWindow.addComponent(label);
+
+	   mainWindow.addComponent(
+	      new Button("What is the time?",
+	         new Button.ClickListener() {
+	         public void buttonClick1(ClickEvent event) {
+	            mainWindow.showNotification(
+	               "The time is " + new Date());
+	         }
+
+			@Override
+			public void buttonClick(ClickEvent event) {
+				// TODO Auto-generated method stub
+				
+			}
+	      }));
+	 
+	 setMainWindow(mainWindow);
+	}
+}

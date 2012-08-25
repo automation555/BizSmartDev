@@ -1,0 +1,470 @@
+[
+  {
+    "symbolicName": "org.mortbay.jetty.servlet-api-2.5",
+    "version": {
+      "major": 6,
+      "minor": 1,
+      "micro": 11,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7768e439986a103390f3fea018b80677b036baa8",
+    "jarFileModificationDate": "2012-08-09T17:34:31.439-04:00",
+    "location": "C:\\Users\\Davis\\Downloads\\School\\eclipse-java-indigo-SR1-win32-x86_64\\eclipse\\configuration\\com.vaadin.integration.eclipse\\download\\gwt-dev\\2.3.0\\gwt-dev.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "051ba195d2e79c8c5fce32f87294901b7719af53",
+    "jarFileModificationDate": "2011-11-25T12:27:38.990-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6d68516cd3a1ed93ad6803dd1e9c241a485c1fd8",
+    "jarFileModificationDate": "2011-11-25T12:27:01.742-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d8507d224e5800cee0035ca9d3894f0bd7a0a0a2",
+    "jarFileModificationDate": "2011-11-25T12:27:39.430-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f992f34ba21bb93984284900838410a96f747d23",
+    "jarFileModificationDate": "2011-11-25T12:27:01.592-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.eclipse.jdt.core.compiler.batch",
+    "version": {
+      "major": 3,
+      "minor": 6,
+      "micro": 0,
+      "qualifier": "M20110210-1200"
+    },
+    "jarFileFingerprint": "ee6685eeed78ed4a854e9587e829a12f9751a68e",
+    "jarFileModificationDate": "2012-08-19T03:11:27.366-04:00",
+    "location": "C:\\Program Files (x86)\\apache-tomcat-7.0.29\\lib\\ecj-3.6.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jasper",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "77e9f809edc4f09c01669c7d39a26f4254a5cca5",
+    "jarFileModificationDate": "2012-08-19T03:11:27.382-04:00",
+    "location": "C:\\Program Files (x86)\\apache-tomcat-7.0.29\\lib\\jasper.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "validation-api-1.0.0.GA-sources",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7a561191db2203550fbfa40d534d4997624cd369",
+    "jarFileModificationDate": "2012-08-09T17:34:31.438-04:00",
+    "location": "C:\\Users\\Davis\\Downloads\\School\\eclipse-java-indigo-SR1-win32-x86_64\\eclipse\\configuration\\com.vaadin.integration.eclipse\\download\\gwt-dependencies\\2.3.0\\validation-api-1.0.0.GA-sources.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "el-api",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "402c0c63e80ba4afe8c15791dca0807867d8594f",
+    "jarFileModificationDate": "2012-08-19T03:11:27.368-04:00",
+    "location": "C:\\Program Files (x86)\\apache-tomcat-7.0.29\\lib\\el-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tomcat-coyote",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "3ce70753e827d1940bd7dcc13889c0265897ea0f",
+    "jarFileModificationDate": "2012-08-19T03:11:27.409-04:00",
+    "location": "C:\\Program Files (x86)\\apache-tomcat-7.0.29\\lib\\tomcat-coyote.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "servlet-api",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7971b00f41374b4e76a225f004d962394e11ce8e",
+    "jarFileModificationDate": "2012-08-19T03:11:27.390-04:00",
+    "location": "C:\\Program Files (x86)\\apache-tomcat-7.0.29\\lib\\servlet-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tomcat-i18n-es",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ff33a8322ebf560483c073f56c1c868ddbebe2c3",
+    "jarFileModificationDate": "2012-08-19T03:11:27.415-04:00",
+    "location": "C:\\Program Files (x86)\\apache-tomcat-7.0.29\\lib\\tomcat-i18n-es.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "catalina-ant",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "85a7ddb68052f47138d0ab87b2c91cc844dfa3f0",
+    "jarFileModificationDate": "2012-08-19T03:11:27.232-04:00",
+    "location": "C:\\Program Files (x86)\\apache-tomcat-7.0.29\\lib\\catalina-ant.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "javax.validation.validation-api",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "GA"
+    },
+    "jarFileFingerprint": "b6bd7f9d78f6fdaa3c37dae18a4bd298915f328e",
+    "jarFileModificationDate": "2012-08-09T17:34:31.439-04:00",
+    "location": "C:\\Users\\Davis\\Downloads\\School\\eclipse-java-indigo-SR1-win32-x86_64\\eclipse\\configuration\\com.vaadin.integration.eclipse\\download\\gwt-dependencies\\2.3.0\\validation-api-1.0.0.GA.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a717cf29020f95db12fd1d37005353f92180c674",
+    "jarFileModificationDate": "2011-11-25T12:27:01.702-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "tomcat-util",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9748c1312d2b5215b84b17f18f876e98d09dca0f",
+    "jarFileModificationDate": "2012-08-19T03:11:27.419-04:00",
+    "location": "C:\\Program Files (x86)\\apache-tomcat-7.0.29\\lib\\tomcat-util.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tomcat-i18n-fr",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1f1011bf4d6fb0e01ee1d08ec3784ecac4680ba5",
+    "jarFileModificationDate": "2012-08-19T03:11:27.417-04:00",
+    "location": "C:\\Program Files (x86)\\apache-tomcat-7.0.29\\lib\\tomcat-i18n-fr.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "catalina-tribes",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ca5970a1bb37d7b9e7f29b2976a820ab10885b40",
+    "jarFileModificationDate": "2012-08-19T03:11:27.240-04:00",
+    "location": "C:\\Program Files (x86)\\apache-tomcat-7.0.29\\lib\\catalina-tribes.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "catalina",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e6b3a5446e3a3297222639a242ebf85acfcbc752",
+    "jarFileModificationDate": "2012-08-19T03:11:27.266-04:00",
+    "location": "C:\\Program Files (x86)\\apache-tomcat-7.0.29\\lib\\catalina.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "com.vaadin",
+    "version": {
+      "major": 6,
+      "minor": 8,
+      "micro": 3,
+      "qualifier": "nightly-20120818-c24196"
+    },
+    "jarFileFingerprint": "6c46ef89264b73d76c484edb54acf2e298b264cd",
+    "jarFileModificationDate": "2012-08-19T04:02:03.929-04:00",
+    "location": "C:\\Users\\Davis\\Documents\\vaadin\\test\\WebContent\\WEB-INF\\lib\\vaadin-6.8.3.nightly-20120818-c24196.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f56383db77ae9502e6ca617e57d55ee73d631c46",
+    "jarFileModificationDate": "2011-11-25T12:27:01.652-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\sunec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a31853a3c486908d5d1b68c3be8cf31c23f86bdf",
+    "jarFileModificationDate": "2011-11-25T12:27:02.586-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "99205532ad01ab8e5e50a8773b1c8761d5870786",
+    "jarFileModificationDate": "2011-11-25T12:27:01.722-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\ext\\sunmscapi.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d64619191b37f3b19cb32e2dd80092091cb0e82f",
+    "jarFileModificationDate": "2011-11-25T12:27:36.058-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.tomcat.jdbc",
+    "version": {
+      "major": 1,
+      "minor": 1,
+      "micro": 0,
+      "qualifier": "1"
+    },
+    "jarFileFingerprint": "d67a38edcbf01cdef8cb639e048ffb33debdc3cc",
+    "jarFileModificationDate": "2012-08-07T13:21:34.284-04:00",
+    "location": "C:\\Program Files (x86)\\apache-tomcat-7.0.29\\lib\\tomcat-jdbc.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "catalina-ha",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6ad75dc3e5e177e64e102ca340f9f9a3dbb517e3",
+    "jarFileModificationDate": "2012-08-19T03:11:27.235-04:00",
+    "location": "C:\\Program Files (x86)\\apache-tomcat-7.0.29\\lib\\catalina-ha.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jasper-el",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1615e945544a9fe9e6276ced0f55e5711dfcb3e9",
+    "jarFileModificationDate": "2012-08-19T03:11:27.370-04:00",
+    "location": "C:\\Program Files (x86)\\apache-tomcat-7.0.29\\lib\\jasper-el.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tomcat-i18n-ja",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9098d10093f250159eba16ffa9b303d453a25f3f",
+    "jarFileModificationDate": "2012-08-19T03:11:27.418-04:00",
+    "location": "C:\\Program Files (x86)\\apache-tomcat-7.0.29\\lib\\tomcat-i18n-ja.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "gwt-user",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "de300440b78d38f6c4525f1794801ff73f4982fb",
+    "jarFileModificationDate": "2012-08-09T17:34:34.643-04:00",
+    "location": "C:\\Users\\Davis\\Downloads\\School\\eclipse-java-indigo-SR1-win32-x86_64\\eclipse\\configuration\\com.vaadin.integration.eclipse\\download\\gwt-user\\2.3.0\\gwt-user.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tomcat-dbcp",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9eae1d6c050b5cf76085ad888d171b555a19413c",
+    "jarFileModificationDate": "2012-08-19T03:11:27.414-04:00",
+    "location": "C:\\Program Files (x86)\\apache-tomcat-7.0.29\\lib\\tomcat-dbcp.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tomcat-api",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c7eb49d1e6f02d173712e1cfef01299c5cbbb901",
+    "jarFileModificationDate": "2012-08-19T03:11:27.391-04:00",
+    "location": "C:\\Program Files (x86)\\apache-tomcat-7.0.29\\lib\\tomcat-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f418c18a85add1fe86d1dc83ad670b95a3ead010",
+    "jarFileModificationDate": "2011-11-25T12:27:35.027-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "124af516cdc90c80d2741af4af0ac7c8043e26ee",
+    "jarFileModificationDate": "2011-11-25T12:27:02.963-05:00",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.eclipse.jdt.core.compiler.batch",
+    "version": {
+      "major": 3,
+      "minor": 7,
+      "micro": 0,
+      "qualifier": "M20120208-0800"
+    },
+    "jarFileFingerprint": "7463378b7788149658b77a088711f0c48cb33d96",
+    "jarFileModificationDate": "2012-08-07T13:21:34.031-04:00",
+    "location": "C:\\Program Files (x86)\\apache-tomcat-7.0.29\\lib\\ecj-3.7.2.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "annotations-api",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d89d4e0d95847733c82963d02096140426e8bf21",
+    "jarFileModificationDate": "2012-08-19T03:11:27.230-04:00",
+    "location": "C:\\Program Files (x86)\\apache-tomcat-7.0.29\\lib\\annotations-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jsp-api",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1148117d019ec00106fa466db3759778ee5d343f",
+    "jarFileModificationDate": "2012-08-19T03:11:27.385-04:00",
+    "location": "C:\\Program Files (x86)\\apache-tomcat-7.0.29\\lib\\jsp-api.jar",
+    "javaRuntime": false
+  }
+]
