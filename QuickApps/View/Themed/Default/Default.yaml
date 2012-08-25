@@ -1,0 +1,27 @@
+info:
+	name: Default
+	description: Default frontend theme for BizSmarte
+	core: 1.x
+	version: 1.0
+	author: Davis Dolezal <davis.dolezal@gmail.com>
+
+stylesheets:
+	all: [reset.css, styles.css]
+
+regions:
+  language-switcher: Language Switcher
+  management-menu: Management menu
+	search: Search form
+	main-menu: Main menu
+	user-menu: User menu
+  
+	
+	slider: Slider
+	footer: Footer
+	
+	services-left: Services Left
+	services-center: Services Center
+	services-right: Services Right
+	
+	sidebar-left: Sidebar Left
+layout: default

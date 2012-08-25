@@ -1,0 +1,1 @@
+<?php echo $this->element(Inflector::camelize($name) . '.help'); ?>

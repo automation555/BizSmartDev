@@ -1,0 +1,1 @@
+<?php echo $this->element('theme_user_profile'); ?>
