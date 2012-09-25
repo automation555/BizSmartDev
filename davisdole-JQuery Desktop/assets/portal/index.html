@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>yensdesign.com - Create a shoutbox using PHP and AJAX with jQuery</title>
+	<link rel="stylesheet" href="css/general.css" type="text/css" media="screen" />
+</head>
+<body>
+	
+	<form method="post" id="form">
+		<table>
+			<tr>
+				<td><label>User</label></td>
+				<td><input class="text user" id="nick" type="text" MAXLENGTH="25" /></td>
+			</tr>
+			<tr>
+				<td><label>Message</label></td>
+				<td><input class="text" id="message" type="text" MAXLENGTH="255" /></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input id="send" type="submit" value="Shout it!" /></td>
+			</tr>
+		</table>
+	</form>
+	<div id="container">
+		<ul class="menu">
+			<li>Shoutbox</li>
+		</ul>
+		<span class="clear"></span>
+		<div class="content">
+			<h1>Latest Messages</h1>
+			<div id="loading"><img src="css/images/loading.gif" alt="Loading..." /></div>
+			
+		</div>
+	</div>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="shoutbox.js"></script>
+</body>
+</html>

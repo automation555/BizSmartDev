@@ -1,0 +1,81 @@
+@import "reset.css";
+body{
+font-family:Trebuchet MS,Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#444;
+}
+div.wrap{
+width:450px;
+margin:5px auto;
+}
+div.header{
+padding:0 0 3px 0;
+margin:0 0 10px 0;
+border-bottom:1px solid #eee;
+}
+div.footer{
+padding:3px 0;
+margin:10px 0 0 0;
+border-top:1px solid #eee;
+}
+h1,h2,h3{
+font-family:Georgia, "Times New Roman", Times, serif;
+}
+h1{
+font-size:3em;
+}
+h2{
+font-size:1.8em;
+}
+h3{
+font-size:1.6em;
+}
+dt{
+font-size:1.3em;
+font-family:Georgia, "Times New Roman", Times, serif;
+}
+p,li,dd{
+font-size:1.2em;
+}
+dd{
+margin:0 0 4px 5px;
+}
+a{
+color:#444;
+border-bottom:1px dotted #444;
+}
+a:hover{
+border-bottom-style:solid;
+}
+dt a{
+padding:0 0 0 5px;
+display:block;
+}
+strong{
+font-weight:bold;
+}
+div.header h1 a{
+color:#444;
+border-bottom:none;
+}
+div.content p, div.content ul, div.content dl{
+padding:0 0 0 10px;
+margin:0 0 10px 0;
+}
+div.footer p{
+color:#999;
+text-align:center;
+}
+div.footer a{
+color:#999;
+border-bottom-color:#999;
+}
+div.sandbox,div.javascript{
+background:#eee;
+margin:10px;
+padding:10px;
+font-size:1.1em;
+}
+div.javascript{
+font-family:"Courier New", Courier, monospace;
+}

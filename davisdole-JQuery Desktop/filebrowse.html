@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script type="text/javascript"> 
+<!-- BEGIN HIDING 
+c_url = new String(); 
+n_bytes = new Object(); 
+var x = 0; 
+var stop = 0; 
+var output = '<a href="/">Main</a> &nbsp;&raquo;&nbsp;'; 
+c_url = location.href; 
+c_url = c_url.slice(8, c_url.length); 
+leftOver = c_url.indexOf('/'); 
+c_url = c_url.slice(leftOver +1, c_url.length) 
+while( !stop ) 
+{ leftOver = c_url.indexOf('/'); 
+if (leftOver != -1) 
+{ n_bytes[x] = c_url.slice( 0, leftOver ); 
+c_url = c_url.slice( leftOver +1, c_url.length ) } 
+else { stop = 1; } 
+x++; } 
+for ( var i in n_bytes ) 
+{ output += '<a href="'; 
+for ( y = 1; y < x - i; y++ ) 
+{ output += '../'; } 
+output += n_bytes[i] + '/">' + n_bytes[i] + '</a> &nbsp;&raquo;&nbsp;'; } 
+document.write( output + document.title ); 
+// DONE HIDING --> 
+</script>
+</body>
+</html>

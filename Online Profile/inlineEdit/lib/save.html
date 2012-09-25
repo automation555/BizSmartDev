@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>inlineEdit 3 | Save</title><link rel="stylesheet" href="../style/style.css"><script type="text/javascript" src="../js/mootools.v1.2.js"></script><script type="text/javascript" src="../js/xpath.js"></script><script type="text/javascript" src="../js/inlineEdit.v3.js"></script><script type="text/javascript">
+window.addEvent('domready',function(){
+	var updateHtml = function(element){
+		var request = {
+			type:'edit',
+			body:{xpath:element.xpath(),content:element.get('html')}
+		};
+		new Request.JSON({url:"../lib/save.php",data:{json:JSON.encode(request)},
+			onComplete:function(response){
+				if(!response.success)alert(response.body);
+			}
+		}).post();
+	};
+	
+	$$('div.sandbox p').each(function(el){
+		el.addEvent('click',function(){this.inlineEdit({
+				onComplete:updateHtml,
+				stripHtml:true
+			});
+		});
+	});
+});
+</script></head><body>
+<div class="wrap">
+	<div class="header">
+        <h1><a href="../index.html">InlineEdit 3</a> | Save</h1>
+        <h2>Because sometimes changes should stick</h2>
+    </div>
+    <div class="content">
+    	<h3>What is it?</h3>
+
+        <p>This is just inlineEdit3 with a onComplete function that uses json remote to send the information about the datachange to a php script that then goes ahead and updates the html.</p>
+        <h3>Well thats not smart!</h3>
+        <p>I know. I wouldn't do it this way. If you are thinking about seriously doing this, I suggest using a database to store the data instead of just editing the html file. Its really not that safe and not very practical.</p>
+        <h3>I wanna try it!</h3>
+        <p>Of course you do. Here is a little sandbox for you.</p>
+        <div class="sandbox" id="sandbox">
+        	<p>This is a test line. Just click here to start editing</p>
+            <p>Please refrain from placing any profanity in this area.</p>
+            <p>Oh, and no html please. Its stripped automatically by the javascript on the frontend (an option in inlineEdit3) and in the backend, so don't get any ideas.</p>
+            <p>Also, if you make a paragraph blank, it'll be refilled by the default text.</p>
+        </div>
+        <h3>Cool. I want it</h3>
+
+        <p>Sure, here is a zip file containing everything you need: <a href="../files/inlineEdit3-save.zip">download it</a></p>
+        <h3>Can I give you a kiss?</h3>
+        <p><strong>No!</strong> Because this isn't really that good</p>
+    </div>
+    <div class="footer">
+    	<p>inlineEdit3 was created by <a href="http://justinmaier.com">Justin Maier</a> June 2008</p>
+
+    </div>
+</div>
+</body></html>
